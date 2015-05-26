@@ -1,0 +1,8 @@
+node_modules/
+public/node_modules/
+public/bower_components/
+public/.sass-cache/
+public/.tmp/
+public/dist/
+mdata/
+.DS_Store

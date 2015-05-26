@@ -1,0 +1,25 @@
+<html ng-app="myApp">
+	<head>
+		<title>Hello!</title>
+	</head>
+	<body >
+		<div ng-controller="GreetingController">
+  		<label for=""> First Name</label>
+  		<input type="text" ng-model="username">
+
+  		<label for="">Last Name</label>
+  		<input type="text" ng-model="password">
+
+  		<button for="button" ng-click="verifyPassword()">
+  			Save
+  		</button>
+
+  		<button for="button" ng-click="change()">
+  			Change
+  		</button>
+		</div>
+
+		<script src="angular.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

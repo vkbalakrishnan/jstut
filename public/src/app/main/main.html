@@ -1,0 +1,28 @@
+<div class="container">
+
+  <div ng-include="'components/navbar/navbar.html'"></div>
+
+  <div class="row">
+    <div class="col-md-6 jumbotron ">
+      <label for="">Username</label>
+      <input class="form-control" type="text" ng-model="userName">
+      <label for="">Password</label>
+      <input class="form-control" type="password" ng-model="passWord">
+      <hr>
+      <button class="btn btn-info" for="button" ng-click="login()">Login</button>
+
+    </div>
+    <div class="col-md-6 jumbotron">
+      <label for="">Username</label>
+      <input class="form-control" type="text" ng-model="newUserName">
+      <label for="">Password</label>
+      <input class="form-control" type="password" ng-model="newPassword">
+      <label for="">Repeat Password</label>
+      <input class="form-control" type="password" ng-model="newRepeatPassword">
+      <hr>
+      <button class="btn btn-primary " for="button"
+        ng-click="signup()">Sign up</button>
+    </div>
+  </div>
+
+</div>
